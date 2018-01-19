@@ -23,11 +23,11 @@
     font-size: 38px;
     letter-spacing: -1.1px;
     margin: 0 0 5px 0;
-    color: #e35614;
+    color: #2a5008;
 }
 
 .section h1 a {
-    color: #e35614;
+    color: #2a5008;
 }
 
 .section h1 a.help {
@@ -43,7 +43,7 @@
     font-size: 25px;
     letter-spacing: -1.1px;
     margin: 0 0 10px 0;
-    color: #e35614;
+    color: #2a5008;
 }
 
 .section.section-large h1 {
@@ -107,7 +107,7 @@
 }
 
 .section .bottomline a {
-    color: #e35614;
+    color: #2a5008;
 }
 
 .section .result-final-icon {
@@ -128,7 +128,7 @@
     font-size: 12px;
     padding: 5px 15px;
     transition: all .3s ease .1s;
-    background-color: #e35614;
+    background-color: #2a5008;
     color: white;
     margin: 0;
 }
@@ -163,9 +163,9 @@
 }
 
 .btn.btn-mnm.btn-inverted {
-    border: 1px solid #e35614;
+    border: 1px solid #2a5008;
     background-color: #fff;
-    color: #e35614;
+    color: #2a5008;
 }
 
 .btn.btn-mnm.btn-inverted:disabled,
@@ -483,7 +483,7 @@ a.action-link, .action-text {
     vertical-align: middle;
     line-height: 15px;
     text-align: center;
-    background-color: #e35614;
+    background-color: #2a5008;
     color: white;
 }
 
@@ -547,7 +547,7 @@ a.action-link span {
     padding-top: 5px;
     width: 30px;
     height: 30px;
-    background-color: #e35614;
+    background-color: #2a5008;
     text-align: center;
 }
 
@@ -558,12 +558,12 @@ a.action-link span {
 }
 
 .sidebox-extended .header {
-    background-color: #e35614;
+    background-color: #2a5008;
     height: 34px;
     padding: 4px 20px;
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
-    background: #e35614;
+    background: #2a5008;
     text-align: center;
 }
 
@@ -648,7 +648,7 @@ a.action-link span {
 }
 
 .sidebox-sub a {
-    color: #e35614;
+    color: #2a5008;
 }
 
 .sidebox-sub .follow {
@@ -669,8 +669,8 @@ a.action-link span {
     padding: 0px 30px;
     transition: all .3s ease .1s;
     background-color: #fff;
-    color: #e35614;
-    border: 1px solid #e35614;
+    color: #2a5008;
+    border: 1px solid #2a5008;
     text-transform: uppercase;
     display: inline;
 }
@@ -708,7 +708,7 @@ a.action-link span {
     font-size: 18px;
     letter-spacing: -0.5px;
     font-weight: 400;
-    color: #e35614;
+    color: #2a5008;
     margin-bottom: 4px;
 }
 
@@ -776,7 +776,7 @@ a.action-link span {
 }
 
 .charlist a.selected {
-    color: #e35614;
+    color: #2a5008;
 }
 
 .charlist a:before {
@@ -937,7 +937,7 @@ a.action-link span {
 
 
 .widget-popular-links-slider .content a:visited {
-    color: #e35614 !important;
+    color: #2a5008 !important;
 }
 
 .widget-popular-links-slider a.source {
@@ -1137,12 +1137,12 @@ ul.slick-dots li {
     background-color: #fff;
     padding: 10px;
     margin-left: 15px;
-    border: 1px solid #e35614;
+    border: 1px solid #2a5008;
     border-radius: 9999px;
 }
 
 ul.slick-dots li.slick-active {
-    background-color: #e35614;
+    background-color: #2a5008;
 }
 
 ul.slick-dots li button {
@@ -1209,7 +1209,7 @@ ul.slick-dots li button {
 }
 
 .sub-description a {
-    color: #e35614;
+    color: #2a5008;
 }
 
 .sub-description .follow {
@@ -1230,8 +1230,8 @@ ul.slick-dots li button {
     padding: 4px 30px;
     transition: all .3s ease .1s;
     background-color: #fff;
-    color: #e35614;
-    border: 1px solid #e35614;
+    color: #2a5008;
+    border: 1px solid #2a5008;
     text-transform: uppercase;
     display: inline;
     margin-left: 15px;
@@ -1438,7 +1438,7 @@ ul.slick-dots li button {
 .story-blog .main-content .text a,
 .section.section-article-submit .input-editable a {
     text-decoration: underline;
-    color: #e35614;
+    color: #2a5008;
 }
 
 .story-blog .main-content .text ul,
@@ -1457,7 +1457,7 @@ ul.slick-dots li button {
     left: 0;
     margin-top: -25px;
     font-size: 95px;
-    color: #e35614;
+    color: #2a5008;
     font-style: normal;
     font-family: Merriweather;
 }
@@ -1875,7 +1875,7 @@ ul.slick-dots li button {
     text-transform: uppercase;
     padding: 4px 10px;
     border-radius: 3px;
-    color: #e35614;
+    color: #2a5008;
     margin-top: -6px;
     font-size: 12px;
     font-weight: 400;
@@ -1897,7 +1897,7 @@ ul.slick-dots li button {
     padding: 5px;
     border-bottom: 1px solid #D7D7D7;
     background-color: #F1F1F1;
-    color: #e35614;
+    color: #2a5008;
     font-weight: normal;
 }
 
@@ -1911,13 +1911,13 @@ ul.slick-dots li button {
 }
 
 .ql-snow .ql-toolbar button:hover, .ql-snow.ql-toolbar button:hover, .ql-snow .ql-toolbar button:hover, .ql-snow.ql-toolbar button.ql-active, .ql-snow .ql-toolbar button.ql-active, .ql-snow.ql-toolbar .ql-picker-label:hover, .ql-snow .ql-toolbar .ql-picker-label:hover, .ql-snow.ql-toolbar .ql-picker-label.ql-active, .ql-snow .ql-toolbar .ql-picker-label.ql-active, .ql-snow.ql-toolbar .ql-picker-item:hover, .ql-snow .ql-toolbar .ql-picker-item:hover, .ql-snow.ql-toolbar .ql-picker-item.ql-selected, .ql-snow .ql-toolbar .ql-picker-item.ql-selected, .ql-snow.ql-toolbar button:hover .ql-stroke, .ql-snow .ql-toolbar button:hover .ql-stroke, .ql-snow.ql-toolbar button.ql-active .ql-stroke, .ql-snow .ql-toolbar button.ql-active .ql-stroke, .ql-snow.ql-toolbar .ql-picker-label:hover .ql-stroke, .ql-snow .ql-toolbar .ql-picker-label:hover .ql-stroke, .ql-snow.ql-toolbar .ql-picker-label.ql-active .ql-stroke, .ql-snow .ql-toolbar .ql-picker-label.ql-active .ql-stroke, .ql-snow.ql-toolbar .ql-picker-item:hover .ql-stroke, .ql-snow .ql-toolbar .ql-picker-item:hover .ql-stroke, .ql-snow.ql-toolbar .ql-picker-item.ql-selected .ql-stroke, .ql-snow .ql-toolbar .ql-picker-item.ql-selected .ql-stroke, .ql-snow.ql-toolbar button:hover .ql-stroke-miter, .ql-snow .ql-toolbar button:hover .ql-stroke-miter, .ql-snow.ql-toolbar button.ql-active .ql-stroke-miter, .ql-snow .ql-toolbar button.ql-active .ql-stroke-miter, .ql-snow.ql-toolbar .ql-picker-label:hover .ql-stroke-miter, .ql-snow .ql-toolbar .ql-picker-label:hover .ql-stroke-miter, .ql-snow.ql-toolbar .ql-picker-label.ql-active .ql-stroke-miter, .ql-snow .ql-toolbar .ql-picker-label.ql-active .ql-stroke-miter, .ql-snow.ql-toolbar .ql-picker-item:hover .ql-stroke-miter, .ql-snow .ql-toolbar .ql-picker-item:hover .ql-stroke-miter, .ql-snow.ql-toolbar .ql-picker-item.ql-selected .ql-stroke-miter, .ql-snow .ql-toolbar .ql-picker-item.ql-selected .ql-stroke-miter {
-    color: #e35614 !important;
+    color: #2a5008 !important;
 }
 .ql-snow.ql-toolbar button:hover .ql-stroke, .ql-snow .ql-toolbar button:hover .ql-stroke, .ql-snow.ql-toolbar button.ql-active .ql-stroke, .ql-snow .ql-toolbar button.ql-active .ql-stroke, .ql-snow.ql-toolbar .ql-picker-label:hover .ql-stroke, .ql-snow .ql-toolbar .ql-picker-label:hover .ql-stroke, .ql-snow.ql-toolbar .ql-picker-label.ql-active .ql-stroke, .ql-snow .ql-toolbar .ql-picker-label.ql-active .ql-stroke, .ql-snow.ql-toolbar .ql-picker-item:hover .ql-stroke, .ql-snow .ql-toolbar .ql-picker-item:hover .ql-stroke, .ql-snow.ql-toolbar .ql-picker-item.ql-selected .ql-stroke, .ql-snow .ql-toolbar .ql-picker-item.ql-selected .ql-stroke, .ql-snow.ql-toolbar button:hover .ql-stroke-miter, .ql-snow .ql-toolbar button:hover .ql-stroke-miter, .ql-snow.ql-toolbar button.ql-active .ql-stroke-miter, .ql-snow .ql-toolbar button.ql-active .ql-stroke-miter, .ql-snow.ql-toolbar .ql-picker-label:hover .ql-stroke-miter, .ql-snow .ql-toolbar .ql-picker-label:hover .ql-stroke-miter, .ql-snow.ql-toolbar .ql-picker-label.ql-active .ql-stroke-miter, .ql-snow .ql-toolbar .ql-picker-label.ql-active .ql-stroke-miter, .ql-snow.ql-toolbar .ql-picker-item:hover .ql-stroke-miter, .ql-snow .ql-toolbar .ql-picker-item:hover .ql-stroke-miter, .ql-snow.ql-toolbar .ql-picker-item.ql-selected .ql-stroke-miter, .ql-snow .ql-toolbar .ql-picker-item.ql-selected .ql-stroke-miter {
-    stroke: #e35614 !important;
+    stroke: #2a5008 !important;
 }
 .ql-snow.ql-toolbar button:hover .ql-fill, .ql-snow .ql-toolbar button:hover .ql-fill, .ql-snow.ql-toolbar button.ql-active .ql-fill, .ql-snow .ql-toolbar button.ql-active .ql-fill, .ql-snow.ql-toolbar .ql-picker-label:hover .ql-fill, .ql-snow .ql-toolbar .ql-picker-label:hover .ql-fill, .ql-snow.ql-toolbar .ql-picker-label.ql-active .ql-fill, .ql-snow .ql-toolbar .ql-picker-label.ql-active .ql-fill, .ql-snow.ql-toolbar .ql-picker-item:hover .ql-fill, .ql-snow .ql-toolbar .ql-picker-item:hover .ql-fill, .ql-snow.ql-toolbar .ql-picker-item.ql-selected .ql-fill, .ql-snow .ql-toolbar .ql-picker-item.ql-selected .ql-fill, .ql-snow.ql-toolbar button:hover .ql-stroke.ql-fill, .ql-snow .ql-toolbar button:hover .ql-stroke.ql-fill, .ql-snow.ql-toolbar button.ql-active .ql-stroke.ql-fill, .ql-snow .ql-toolbar button.ql-active .ql-stroke.ql-fill, .ql-snow.ql-toolbar .ql-picker-label:hover .ql-stroke.ql-fill, .ql-snow .ql-toolbar .ql-picker-label:hover .ql-stroke.ql-fill, .ql-snow.ql-toolbar .ql-picker-label.ql-active .ql-stroke.ql-fill, .ql-snow .ql-toolbar .ql-picker-label.ql-active .ql-stroke.ql-fill, .ql-snow.ql-toolbar .ql-picker-item:hover .ql-stroke.ql-fill, .ql-snow .ql-toolbar .ql-picker-item:hover .ql-stroke.ql-fill, .ql-snow.ql-toolbar .ql-picker-item.ql-selected .ql-stroke.ql-fill, .ql-snow .ql-toolbar .ql-picker-item.ql-selected .ql-stroke.ql-fill {
-    fill: #e35614 !important;
+    fill: #2a5008 !important;
 }
 
 
@@ -1961,6 +1961,10 @@ ul.slick-dots li button {
     padding-left: 10px;
     margin-left: 10px;
     border-left: 1px solid #dfdfdf;
+}
+
+.no-margin {
+    margin: 0 !important;
 }
 
 .no-margin-left {
@@ -2103,7 +2107,7 @@ input[type="email"].form-control, input[type="url"].form-control, input[type="se
 .modal-mnm .modal-title {
     text-align: center;
     font-weight: 300;
-    color: #e35614;
+    color: #2a5008;
     font-size: 24px;
 }
 
@@ -2123,7 +2127,7 @@ input[type="email"].form-control, input[type="url"].form-control, input[type="se
     margin: 0;
     display: block;
     width: 100%;
-    background: #e35614;
+    background: #2a5008;
     color: white;
     border: 0;
     border-radius: 0 0 3px 3px;
@@ -2141,7 +2145,7 @@ input[type="email"].form-control, input[type="url"].form-control, input[type="se
 }
 
 .article-container .ql-picker-label.ql-active {
-    color: #e35614 !important;
+    color: #2a5008 !important;
 }
 
 .article-container svg polygon.ql-stroke {
@@ -2218,7 +2222,7 @@ input[type="email"].form-control, input[type="url"].form-control, input[type="se
     letter-spacing: 3px;
     font-weight: bold;
     font-size: 12px;
-    color: #ff6300;
+    color: #2a5008;
     background-color: #dadada;
 }
 
@@ -2231,7 +2235,7 @@ input[type="email"].form-control, input[type="url"].form-control, input[type="se
 }
 
 .sidebox-rounded.orange .header {
-    background: #e35614;
+    background: #2a5008;
 }
 
 .sidebox-rounded.orange .header a {
@@ -2278,11 +2282,11 @@ input[type="email"].form-control, input[type="url"].form-control, input[type="se
 }
 
 .sidebox-rounded h5 a:hover {
-    color: #e35614;
+    color: #2a5008;
 }
 
 .sidebox-rounded .date {
-    color: #e35614;
+    color: #2a5008;
     font-size: 14px;
     font-weight: bold;
     margin-bottom: 20px;
@@ -2292,7 +2296,7 @@ input[type="email"].form-control, input[type="url"].form-control, input[type="se
     width: 55px;
     height: 55px;
     float: left;
-    margin-right: 10px;
+    margin: 0 10px 20px 0;
 }
 
 .sidebox-rounded .guest {
@@ -2315,7 +2319,7 @@ input[type="email"].form-control, input[type="url"].form-control, input[type="se
 }
 
 .sidebox-rounded .datetime {
-    color: #e35614;
+    color: #2a5008;
     font-size: 13px;
     margin-top: 5px;
     padding-left: 65px;
@@ -2324,8 +2328,8 @@ input[type="email"].form-control, input[type="url"].form-control, input[type="se
 .sidebox-rounded .sponsored {
     font-size: 12px;
     font-weight: bold;
-    color: #e35614;
-    border: 1px solid #e35614;
+    color: #2a5008;
+    border: 1px solid #2a5008;
     padding: 2px 4px;
     background-color: #fff;
     margin-left: 5px;
@@ -2335,7 +2339,7 @@ input[type="email"].form-control, input[type="url"].form-control, input[type="se
 }
 
 .sidebox-rounded .show-responses {
-    color: #ff6300;
+    color: #2a5008;
     margin-top: 5px;
     display: block;
     margin-left: 66px;
@@ -2391,7 +2395,7 @@ div.article-container div#editor {
 }
 
 .news-summary.sponsored .news-body span.sponsor {
-    background-color: #ff6300;
+    background-color: #2a5008;
     color: #fff;
     padding: 2px 4px;
     position: absolute;

@@ -76,7 +76,7 @@ class Link extends LCPBase
         subs.color1 AS sub_color1, subs.color2 AS sub_color2, subs.page_mode AS page_mode, favorite_link_id AS favorite,
         favorite_link_readed AS favorite_readed, clicks.counter AS clicks, votes.vote_value AS voted,
         media.size AS media_size, media.mime AS media_mime, media.extension AS media_extension,
-        media.access AS media_access, UNIX_TIMESTAMP(media.date) AS media_date, sponsors.id AS sponsored, 1 AS `read`
+        media.access AS media_access, UNIX_TIMESTAMP(media.date) AS media_date
         FROM links
         INNER JOIN users ON (user_id = link_author)
         LEFT JOIN sub_statuses ON (@site_id > 0 AND sub_statuses.id = @site_id AND sub_statuses.link = links.link_id)
@@ -85,7 +85,6 @@ class Link extends LCPBase
         LEFT JOIN favorites ON (@user_id > 0 AND favorite_user_id =  @user_id AND favorite_type = "link" AND favorite_link_id = links.link_id)
         LEFT JOIN link_clicks as clicks ON (clicks.id = links.link_id)
         LEFT JOIN media ON (media.type = "link" AND media.id = link_id AND media.version = 0)
-        LEFT JOIN sponsors ON (sponsors.link = links.link_id AND sponsors.enabled = 1)
     ';
 
     const SQL_BASIC = '
@@ -102,14 +101,12 @@ class Link extends LCPBase
         user_level AS user_level, user_adcode, subs.name AS sub_name, subs.id AS sub_id, subs.server_name,
         subs.sub AS is_sub, subs.owner AS sub_owner, subs.base_url, subs.created_from, subs.allow_main_link,
         creation.status AS sub_status_origen, media.size AS media_size, media.mime AS media_mime,
-        media.extension AS media_extension, media.access AS media_access, UNIX_TIMESTAMP(media.date) AS media_date,
-        sponsors.id AS sponsored, 1 AS `read`
+        media.extension AS media_extension, media.access AS media_access, UNIX_TIMESTAMP(media.date) AS media_date
         FROM links
         INNER JOIN users ON (user_id = link_author)
         LEFT JOIN sub_statuses ON (@site_id > 0 AND sub_statuses.id = @site_id AND sub_statuses.link = links.link_id)
         LEFT JOIN (sub_statuses AS creation, subs) ON (creation.link=links.link_id AND creation.id = creation.origen AND creation.id=subs.id)
         LEFT JOIN media ON (media.type = "link" AND media.id = link_id AND media.version = 0)
-        LEFT JOIN sponsors ON (sponsors.link = links.link_id AND sponsors.enabled = 1)
     ';
 
     public static function from_db($id, $key = 'id', $complete = true)
@@ -1210,10 +1207,6 @@ class Link extends LCPBase
         $user = null
     ) {
         global $current_user, $current_user, $globals, $db;
-
-        if (!$this->read) {
-            return;
-        }
 
         $this->is_votable();
 
