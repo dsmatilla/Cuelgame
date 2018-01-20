@@ -9,7 +9,7 @@ border-radius-topleft: 3px;
 
 .tabsub-this {
 font-weight: bold;
-background-color: #FFEDC6;
+background-color: #C4DF9B;
 }
 
 .tabsub {
@@ -42,12 +42,12 @@ color: #ff6400;
 
 .tabsub li a:hover {
 text-decoration: none;
-background-color: #FFEDC6;
+background-color: #C4DF9B;
 }
 
 .tabsub li.tabsub-this {
 height: 23px;
-background-color: #FFEDC6;
+background-color: #C4DF9B;
 }
 
 .tabsub li.tabsub-this a {

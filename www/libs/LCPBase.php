@@ -39,6 +39,13 @@ class LCPBase
 
         $regexp .= '|(https{0,1}:\/\/)([^\s<>]{5,500}[^\s<>,;:\.])';
         $regexp .= '|\|([\p{L}\d_]+)';
+
+        // Magnet
+        $regexp .= '|(magnet:\?)[^ \<\n]{1,}';
+
+        // Elink
+        $regexp .= '|(ed2k:\/\/[^ \<\n]{1,})';
+
         $regexp = '/([\s\(\[{}¡;,:¿>\*]|^)('.$regexp.')/Smu';
 
         $callback = function ($matches) {
@@ -120,6 +127,24 @@ class LCPBase
                     $url = rawurldecode($matches[5]);
 
                     return $matches[1].'<a href="'.$globals['base_url_general'].'m/'.$url.'" title="|'.$url.'">|'.$url.'</a>';
+
+                case 'm':
+                    preg_match('/(dn=)[^ \n&]{1,}/', $matches[0], $title);
+                    $dn=urldecode(str_replace("+"," ",substr($title[0],3)));
+                    if(empty($dn)) {
+                            $dn="Magnet link";
+                    }
+
+                    return ' <a href="'.$matches[0].'" title="'.$dn.'" rel="nofollow">'.$dn.'</a> <img src="/img/common/is-magnet.png" />';
+
+                case 'e':
+                    preg_match("/(\|file\|)[^\|]{1,}/", $matches[0], $title);
+                    $dn=substr($title[0],6);
+                    if(empty($dn)) {
+                        $dn="ED2K link";
+                    }
+
+                    return ' <a href="'.$matches[0].'" title="'.$dn.'" rel="nofollow">'.urldecode($dn).'</a> <img src="/img/common/is-ed2k.png" />';
             }
 
             return $matches[1].$matches[2];
