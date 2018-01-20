@@ -233,7 +233,7 @@ color:#fff;
 }
 
 #header-top ul#edlist li.selected a, #header-top ul#edlist li a:hover {
-background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAADCAIAAADdv/LVAAAAFElEQVQI12P4//8/EwMDAxMDAwMAHgYDArjSWt4AAAAASUVORK5CYII=') bottom left repeat-x;
+background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAADCAYAAABS3WWCAAAAFklEQVQI1wXBAQ0AAADCIPb+nRVgQXALIgEE8Cb1dwAAAABJRU5ErkJggg==') bottom left repeat-x;
 }
 
 /* user zone */
@@ -958,7 +958,7 @@ color: #ff6400;
 dl.categorylist dd label {
 margin-left: 35px;
 font-size: 85%;
-color: #ff9400;
+color: #00AA00;
 }
 
 .metadd {
@@ -1188,7 +1188,7 @@ background: url(../../img/common/error.png) no-repeat;
 
 .error-text {
 font-size: 100%;
-color: #FF9400;
+color: #00AA00;
 }
 
 .form-error, .form-error-submit {
@@ -1794,7 +1794,7 @@ color: #3D72C3;
 }
 
 .comment-votes-info a {
-color: #FF9400;
+color: #00AA00;
 }
 
 .comment-footer .answers {
@@ -2120,7 +2120,7 @@ border: 1px solid;
 margin: 0 0 5px 0;
 color: #FF6400;
 background: #FFF;
-border-color: #FF9400;
+border-color: #00AA00;
 }
 
 
@@ -2195,7 +2195,7 @@ border: 1px solid;
 }
 
 .mini-pages a:hover {
-border-color: #FF9400;
+border-color: #00AA00;
 background: #FFBE94;
 color: #FF6400;
 }
@@ -2237,7 +2237,7 @@ display: block;
 }
 
 .mini-sneaker-title strong {
-color: #FF9400;
+color: #00AA00;
 }
 
 .mini-sneaker-ts {
@@ -2299,7 +2299,7 @@ margin-bottom: 0px;
 .note {
 font-size: 85%;
 font-weight: normal;
-color: #FF9400;
+color: #00AA00;
 }
 
 

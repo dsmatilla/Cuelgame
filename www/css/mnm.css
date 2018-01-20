@@ -216,7 +216,6 @@ input[disabled], input[readonly], select[disabled], select[readonly], checkbox[d
 
 #header-top .logo-mnm img {
     height: 30px;
-    width: 163px;
 }
 
 #header-top .logo-ed {
@@ -465,7 +464,7 @@ ul.menu01-itemsr li a {
 }
 
 #header-top ul#edlist li.selected a, #header-top ul#edlist li a:hover {
-    background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAADCAIAAADdv/LVAAAAFElEQVQI12P4//8/EwMDAxMDAwMAHgYDArjSWt4AAAAASUVORK5CYII=') bottom left repeat-x;
+    background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAADCAYAAABS3WWCAAAAFklEQVQI1wXBAQ0AAADCIPb+nRVgQXALIgEE8Cb1dwAAAABJRU5ErkJggg==') bottom left repeat-x;
 }
 
 #header-top ul#userinfo {
@@ -1468,7 +1467,7 @@ dl.categorylist dt label {
 dl.categorylist dd label {
     margin-left: 35px;
     font-size: 85%;
-    color: #ff9400;
+    color: #00AA00;
 }
 
 dl.categorylist input {
@@ -1776,7 +1775,7 @@ div.tab-promoted-article {
 .error-text {
     display: inline-block;
     font-size: 100%;
-    color: #FF9400;
+    color: #00AA00;
     margin-left: 5px;
 }
 
@@ -3112,7 +3111,7 @@ button.link.favorite {
     margin: 0 0 5px 0;
     color: #2a5008;
     background: #FFF;
-    border-color: #FF9400;
+    border-color: #00AA00;
 }
 
 .voters-list .item {
@@ -3182,7 +3181,7 @@ button.link.favorite {
 }
 
 .mini-pages a:hover {
-    border-color: #FF9400;
+    border-color: #00AA00;
     background: #FFBE94;
     color: #2a5008;
 }
@@ -3224,7 +3223,7 @@ button.link.favorite {
 }
 
 .mini-sneaker-title strong {
-    color: #FF9400;
+    color: #00AA00;
 }
 
 .mini-sneaker-ts {
@@ -3287,7 +3286,7 @@ button.link.favorite {
 .note {
     font-size: 85%;
     font-weight: normal;
-    color: #FF9400;
+    color: #00AA00;
 }
 
 @media print {
