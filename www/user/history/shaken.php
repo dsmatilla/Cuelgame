@@ -47,4 +47,4 @@ foreach ($links as $linkdb) {
 
 do_pages($count, $limit);
 
-echo '<br/><span style="color: #FF6400;"><strong>' . _('Nota') . '</strong>: ' . _('sólo se visualizan los votos de los últimos meses') . '</span><br />';
+echo '<br/><span style="color: #2A5008;"><strong>' . _('Nota') . '</strong>: ' . _('sólo se visualizan los votos de los últimos meses') . '</span><br />';

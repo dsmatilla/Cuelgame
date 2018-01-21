@@ -22,7 +22,7 @@ padding:0px;
 }
 
 label {
-color: #FF6400;
+color: #2A5008;
 }
 
 :focus {
@@ -31,7 +31,7 @@ outline: 0;
 
 select {
 background: #FFF;
-color: #FF6400;
+color: #2A5008;
 }
 
 legend {
@@ -44,7 +44,7 @@ text-decoration: underline;
 }
 
 legend, legend a, legend a:visited {
-background: #FF6400;
+background: #2A5008;
 color: #fff;
 }
 
@@ -65,7 +65,7 @@ border: none;
 font-weight: bold;
 margin: 4px 0 4px 0;
 padding: 2px 4px 2px 4px;
-background: #FF6400 url('../../img/common/button-bck-01.png') top left repeat-x;
+background: #2A5008 url('../../img/common/button-bck-01.png') top left repeat-x;
 color: #fff;
 }
 
@@ -98,7 +98,7 @@ color: #03a;
 
 a:hover, a:focus {
 text-decoration: underline;
-color: #ff6400;
+color: #2A5008;
 }
 
 a:active {
@@ -375,7 +375,7 @@ line-height:145%
 }
 
 .header-menu01 ul li a{
-color:#ff6400;
+color:#2A5008;
 text-decoration:none;
 }
 
@@ -404,7 +404,7 @@ white-space: nowrap;
 }
 
 .header-menu01 ul li a:hover{
-color:#ff6400;
+color:#2A5008;
 }
 
 .header-menu01 .selected a, .header-menu01 ul li a:hover {
@@ -644,7 +644,7 @@ margin-left: 0px;
 margin-right: 10px;
 padding-left: 0px;
 padding-right: 0px;
-color: #FF6400;
+color: #2A5008;
 font-weight: bold;
 }
 
@@ -736,7 +736,7 @@ text-align: center;
 border: 1px solid #ffeed6;
 text-align: center;
 font-size: 12px;
-color: #ff6400;
+color: #2A5008;
 background-color: #FFE1B6;
 -webkit-border-radius: 4px;
 -moz-border-radius: 4px;
@@ -875,7 +875,7 @@ width: 9%;
 #footcol1 h5, #footcol2 h5, #footcol3 h5, #footcol4 h5, #footcol5 h5 {
 font-size: 120%;
 font-weight: bold;
-color: #ff6400;
+color: #2A5008;
 margin-bottom: 4px;
 }
 
@@ -952,7 +952,7 @@ width: auto;
 text-align: left;
 font-size: 110%;
 font-weight: bold;
-color: #ff6400;
+color: #2A5008;
 }
 
 dl.categorylist dd label {
@@ -1044,7 +1044,7 @@ margin-top: 0;
 margin-bottom: 8px;
 font-size: 160%;
 font-weight: bold;
-color: #FF6400;
+color: #2A5008;
 }
 
 /* h2 without underline */
@@ -1061,7 +1061,7 @@ margin-top: 0;
 margin-bottom: 3px;
 font-size: 140%;
 font-weight: normal;
-color: #FF6400;
+color: #2A5008;
 }
 
 h4 {
@@ -1163,7 +1163,7 @@ padding: 3px 10px 3px 30px ;
 margin: 0px 0 5px 0;
 font-size: 85%;
 background: #FEFBEA url(../../img/common/error_s.png) 5px 50% no-repeat;
-border-color: #FF6400;
+border-color: #2A5008;
 }
 
 .comments-counter .counter {
@@ -1182,7 +1182,7 @@ font-weight: bold;
 font-size: 120%;
 margin: 5px 0 0 0;
 padding: 25px 0 0 0;
-color: #FF6400;
+color: #2A5008;
 background: url(../../img/common/error.png) no-repeat;
 }
 
@@ -1205,7 +1205,7 @@ padding: 10px;
 margin: 15px 0 0 0;
 border: 1px solid;
 background: #FFE2C5;
-border-color: #FF6400;
+border-color: #2A5008;
 }
 
 .form-full {
@@ -1287,7 +1287,7 @@ font-size: 120%;
 -moz-border-radius: 3px;
 -webkit-border-radius: 3px;
 border-radius: 3px;
-background-color: #ff6400;
+background-color: #2A5008;
 font-size: 9pt;
 }
 
@@ -1315,7 +1315,7 @@ width: 67px;
 height: 85px;
 border: 1px solid #ffeed6;
 font-size: 12px;
-color: #ff6400;
+color: #2A5008;
 text-align: center;
 background-clip: padding-box;
 -webkit-border-radius: 4px;
@@ -1340,7 +1340,7 @@ border-radius: 4px 4px 0 0;
 }
 .news-shakeit .votes a {
 display: block;
-color: #ff6400;
+color: #2A5008;
 font-size: 18px;
 text-decoration: none;
 }
@@ -1350,7 +1350,7 @@ left: -6px;
 display: inline-block;
 width: 78px;
 border: 1px solid #ffc098;
-background-color: #ff6400;
+background-color: #2A5008;
 }
 
 .news-shakeit .menealo a, .news-shakeit .menealo span, .bar .menealo a, .bar .menealo span {
@@ -1417,7 +1417,7 @@ text-align: center;
 
 .bar .mnm-published, .bar .mnm-queued, .bar .mnm-discarded {
 padding: 4px 5px;
-color: #ff6400;
+color: #2A5008;
 }
 
 .bar .mnm-published {
@@ -1470,7 +1470,7 @@ cursor: pointer;
 .tab-trackback-url {
 font-weight: bold;
 font-size: 100%;
-color: #FF6400;
+color: #2A5008;
 }
 
 .tab-trackback {
@@ -1537,7 +1537,7 @@ color: #FFF;
 .commentform .submit {
 font-weight: bold;
 border: 1px dotted;
-background: #FF6400;
+background: #2A5008;
 color: #FFF;
 border-color: #FFF;
 }
@@ -1562,7 +1562,7 @@ border: 0;
 padding: 5px 0px 5px 0px;
 font-weight: bold;
 text-align: center;
-background: #FF6400;
+background: #2A5008;
 color: #FFF;
 }
 
@@ -1603,14 +1603,14 @@ overflow: hidden;
 min-height: 25px;
 background: #C4DF9B;
 color: #202020;
-border-color: #FF6400;
+border-color: #2A5008;
 border-radius: 5px;
 -moz-border-radius: 5px;
 -webkit-border-radius: 5px;
 }
 
 .comment-body a strong {
-color: #FF6400;
+color: #2A5008;
 }
 
 .comment-body .tooltip {
@@ -1927,19 +1927,19 @@ margin: 0;
 
 .faq ol {
 font-weight: bold;
-color: #FF6400;
+color: #2A5008;
 }
 
 .faq ul {
 font-weight: normal;
-color: #FF6400;
+color: #2A5008;
 }
 
 .faq h3,
 .faq h4 {
 font-weight: bold;
 font-size: 125%;
-color: #FF6400;
+color: #2A5008;
 }
 
 .faq p {
@@ -1957,7 +1957,7 @@ margin: 0 60px 10px 60px;
 padding: 0 0 20px 0;
 font-weight: bold;
 background: #FFF;
-color: #FF6400;
+color: #2A5008;
 }
 
 .genericform .sign {
@@ -1980,12 +1980,12 @@ width: 100%;
 margin: 5px 0 5px 0;
 font-size: 8.5pt;
 background: #FFF;
-color: #FF6400;
+color: #2A5008;
 }
 
 .genericform .recoverpass {
 font-size: 125%;
-color: #FF6400;
+color: #2A5008;
 }
 
 .genericform .recoverpass a:link, .recoverpass a:visited {
@@ -1993,7 +1993,7 @@ border-bottom-width: 1px;
 border-bottom-style: dotted;
 padding-bottom: 1px;
 text-decoration: none;
-color: #FF6400;
+color: #2A5008;
 }
 
 .genericform .recoverpass a:hover {
@@ -2009,7 +2009,7 @@ color: #303030;
 }
 
 .genericform .sign legend {
-color: #FF6400;
+color: #2A5008;
 }
 
 /* image forms */
@@ -2118,7 +2118,7 @@ width: 99%;
 overflow: hidden;
 border: 1px solid;
 margin: 0 0 5px 0;
-color: #FF6400;
+color: #2A5008;
 background: #FFF;
 border-color: #00AA00;
 }
@@ -2167,28 +2167,28 @@ display: block;
 float: left;
 padding: 3px 5px 3px 5px;
 margin-right: 3px;
-color: #FF6400;
+color: #2A5008;
 }
 
 .mini-pages span.current {
 border: 1px solid;
 font-weight: bold;
-border-color: #FF6400;
+border-color: #2A5008;
 background: #FFBE94;
-color: #FF6400;
+color: #2A5008;
 }
 
 .mini-pages span.current a {
 padding: 0;
 border: 0px;
 background: #FFBE94;
-color: #FF6400;
+color: #2A5008;
 }
 
 .mini-pages a {
 border: 1px solid;
 text-decoration: none;
-border-color: #FF6400;
+border-color: #2A5008;
 border-color: #FFF;
 background: #fff url(../../img/common/tabs/tabsub-background.png) bottom left repeat-x;
 border: 1px solid;
@@ -2197,7 +2197,7 @@ border: 1px solid;
 .mini-pages a:hover {
 border-color: #00AA00;
 background: #FFBE94;
-color: #FF6400;
+color: #2A5008;
 }
 
 #tooltip-text {
@@ -2314,7 +2314,7 @@ z-index: 15000;
 width: 25%;
 min-width: 250px;
 height: 18.5ex;
-border:1px solid #FF6400;
+border:1px solid #2A5008;
 background: #FFEEC7;
 overflow: hidden;
 border-radius: 5px;

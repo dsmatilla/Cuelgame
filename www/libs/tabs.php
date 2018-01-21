@@ -70,6 +70,12 @@ final class Tabs
 
             case 'favorite_comments':
                 return self::renderForProfileFavoriteComments($options, $tab_class);
+
+            case 'currency':
+                return self::renderForProfileCurrency($options, $tab_class);
+
+            case 'wallet':
+                return self::renderForProfileCurrencyWallet($options, $tab_class);
         }
     }
 
@@ -153,6 +159,12 @@ final class Tabs
 
             case 'notes_privates':
                 return self::optionsForProfileNotesPrivates();
+
+            case 'currency':
+                return self::optionsForProfileCurrency();
+
+            case 'wallet':
+                return self::optionsForProfileWallet();
         }
 
         return array();
@@ -772,5 +784,41 @@ final class Tabs
     public static function optionsForProfileNotesPrivates()
     {
         return self::optionsForProfileNotes();
+    }
+
+    public static function renderForProfileCurrency($params, $tab_class)
+    {
+        return self::renderUserProfileSubheader(self::optionsForProfileCurrency(), 0, '', $tab_class);
+    }
+
+    public static function renderForProfileCurrencyWallet($params, $tab_class)
+    {
+        return self::renderUserProfileSubheader(self::optionsForProfileCurrencyWallet(), 0, '', $tab_class);
+    }
+
+    public static function optionsForProfileCurrency()
+    {
+        global $current_user, $user, $globals;
+
+        $options = array(
+            'wallet' => array(
+                'title' => _('Cartera'),
+                'link' => $user->get_uri('wallet'),
+            )
+        );
+
+        /*if ($user->id == $current_user->user_id) {
+            $options['notes_privates'] = array(
+                'title' => _('Privados'),
+                'link' => $user->get_uri('notes_privates'),
+            );
+        }*/
+
+        return $options;
+    }
+
+    public static function optionsForProfileWallet()
+    {
+        return self::optionsForProfileCurrency();
     }
 }

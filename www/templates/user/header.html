@@ -72,6 +72,10 @@
     <div class="contents-layout">
         <a name="menu"></a>
         <nav class="contents-menu">
+            <a href="{% exec user.get_uri "currency" %}" {% if menu == 'currency' %} class="selected" {% endif %}>
+                <i class="fa fa-money"></i> <span>{% trans _('Banco') %}</span>
+            </a>
+
             <a href="{% exec user.get_uri "articles" %}" {% if menu == 'articles' %} class="selected" {% endif %}>
                 <i class="fa fa-file-text-o"></i> <span>{% trans _('Artículos') %}</span>
             </a>

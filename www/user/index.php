@@ -156,6 +156,11 @@ switch ($view) {
         $menu = 'profile';
         break;
 
+    case 'currency':
+    case 'wallet':
+        $menu = 'currency';
+        break;
+
     default:
         do_error(_('opción inexistente'), 404);
         break;
@@ -192,6 +197,7 @@ if ($current_user->user_id == $user->id || $current_user->admin) {
 $medals = $user->getMedals();
 
 Haanga::Load('user/header.html', compact('user', 'medals', 'menu', 'strike'));
+print_r($options);
 Haanga::Load('user/submenu.html', [
     'options' => ($options = Tabs::optionsFromProfile($view)),
     'view' => $view

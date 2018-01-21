@@ -7,7 +7,7 @@
 // AFFERO GENERAL PUBLIC LICENSE is also included in the file called "COPYING".
 require_once __DIR__.'/../config.php';
 
-$colors = array('negatives' => '#CB4B4B', 'positives' => '#4DA74D', 'anonymous' => '#AFD8F8', 'karma' => '#FF6400');
+$colors = array('negatives' => '#CB4B4B', 'positives' => '#4DA74D', 'anonymous' => '#AFD8F8', 'karma' => '#2A5008');
 
 header('Content-Type: application/json; charset=utf-8');
 

@@ -58,12 +58,12 @@
     <g
        transform="matrix(0.23086496,0,0,0.26247365,-3.0814364,-4.5986696)"
        id="_x31_1_alerts_and_states_warning"
-       style="fill:#ff6400;fill-opacity:1"
+       style="fill:#2A5008;fill-opacity:1"
        inkscape:export-filename="/home/benjami/work/mnm/meneame/mv_201310/error_s.png"
        inkscape:export-xdpi="20.780001"
        inkscape:export-ydpi="20.780001">
       <path
-         style="fill:#ff6400;fill-opacity:1;display:inline"
+         style="fill:#2A5008;fill-opacity:1;display:inline"
          inkscape:connector-curvature="0"
          display="inline"
          d="M 81.937,73.199 51.046,19.7 c -1.673,-2.906 -4.416,-2.906 -6.093,0 L 14.064,73.199 c -1.678,2.905 -0.307,5.28 3.045,5.28 h 61.785 c 3.35,0 4.717,-2.375 3.043,-5.28 z M 52.264,69.994 H 43.74 v -8.249 h 8.523 v 8.249 z m 0,-13.471 H 43.74 V 36.999 h 8.523 v 19.524 z"

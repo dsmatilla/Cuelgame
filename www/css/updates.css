@@ -1771,7 +1771,7 @@ ul.slick-dots li button {
 }
 
 .section-profile .contents-layout .contents-submenu a {
-    color: #ff6400;
+    color: #2A5008;
 }
 
 .section-profile .contents-layout .contents-submenu a.selected {
@@ -2369,7 +2369,7 @@ div.article-container div#editor {
     padding-top: 15px;
     padding-bottom: 15px;
     background-color: #fff9f0;
-    border-bottom: 5px solid #ff6400;
+    border-bottom: 5px solid #2A5008;
 }
 
 .news-summary.sponsored .news-body .votes {
@@ -2391,7 +2391,7 @@ div.article-container div#editor {
 }
 
 .news-summary.sponsored .news-body .news-submitted a.houser {
-    color: #ff6400
+    color: #2A5008
 }
 
 .news-summary.sponsored .news-body span.sponsor {
