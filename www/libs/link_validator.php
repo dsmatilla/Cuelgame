@@ -164,6 +164,28 @@ class LinkValidator
         return $this;
     }
 
+    public function checkP2PLink()
+    {
+        global $db;
+
+        $hash="";
+        if(preg_match_all("/btih:[a-zA-Z0-9]{40}/",$this->link->url,$hashes)) {
+            $hash=substr($hashes[0][0],5,40);
+        } else {
+            if(preg_match_all("/btih:[a-zA-Z0-9]{32}/",$this->link->url,$hashes)) {
+                $hash=substr($hashes[0][0],5,32);
+            }
+        }
+
+        if($hash!="") {
+            $same_hash = $db->get_var("select count(*) from links where link_url LIKE '%".$hash."%' and link_status != 'discard' AND link_status != 'autodiscard' AND link_content_type='magnet'");
+            if($same_hash) {
+                $this->setError(_('El hash del enlace ya ha sido enviado, revisa el envío, por favor.'));
+                return false;
+            }
+        }
+    }
+
     public function checkBan($url = null)
     {
         require_once mnminclude.'ban.php';

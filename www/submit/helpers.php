@@ -84,6 +84,16 @@ function validateLinkUrl($link, $validator)
 
     $anti_spam = empty($site_properties['no_anti_spam']);
 
+    // Magnet and eLink check
+    if(strtolower(substr($link->url,0,8))=="magnet:?" OR strtolower(substr($link->url,0,7))=="ed2k://") {
+        try {
+            $validator->checkP2PLink();
+        } catch (Exception $e) {
+            return;
+        }
+        return true;
+    }
+
     try {
         $validator->fixUrl();
         $validator->checkUrl();
