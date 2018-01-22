@@ -164,7 +164,7 @@ final class Tabs
                 return self::optionsForProfileCurrency();
 
             case 'wallet':
-                return self::optionsForProfileWallet();
+                return self::optionsForProfileCurrencyWallet();
         }
 
         return array();
@@ -793,7 +793,7 @@ final class Tabs
 
     public static function renderForProfileCurrencyWallet($params, $tab_class)
     {
-        return self::renderUserProfileSubheader(self::optionsForProfileCurrencyWallet(), 0, '', $tab_class);
+        return self::renderUserProfileSubheader(self::optionsForProfileCurrencyWallet(), 1, '', $tab_class);
     }
 
     public static function optionsForProfileCurrency()
@@ -817,7 +817,7 @@ final class Tabs
         return $options;
     }
 
-    public static function optionsForProfileWallet()
+    public static function optionsForProfileCurrencyWallet()
     {
         return self::optionsForProfileCurrency();
     }

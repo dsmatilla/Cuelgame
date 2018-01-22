@@ -471,6 +471,11 @@ $globals['user_agent'] = 'Meneamebot (http://meneame.net/)';
 
 $globals['debug'] = false;
 
+$globals['cc_host'] = "";
+$globals['cc_user'] = "";
+$globals['cc_pass'] = "";
+$globals['cc_prefix'] = "";
+
 // Send logs to "log_user", it's windows compatible
 openlog('meneame', LOG_ODELAY, LOG_USER);
 
