@@ -16,6 +16,7 @@ return array(
     'CommentQA' => $baseDir . '/www/libs/commenttree.php',
     'CommentTree' => $baseDir . '/www/libs/commenttree.php',
     'CommentTreeNode' => $baseDir . '/www/libs/commenttree.php',
+    'Cuelgacoin' => $baseDir . '/www/libs/cuelgacoin.php',
     'DbHelper' => $baseDir . '/www/libs/db_helper.php',
     'Facebook' => $baseDir . '/www/libs/facebook/facebook.php',
     'FacebookApiException' => $baseDir . '/www/libs/facebook/base_facebook.php',

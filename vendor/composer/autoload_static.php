@@ -115,6 +115,7 @@ class ComposerStaticInit982e99603abf7e931d3651829d24ceda
         'CommentQA' => __DIR__ . '/../..' . '/www/libs/commenttree.php',
         'CommentTree' => __DIR__ . '/../..' . '/www/libs/commenttree.php',
         'CommentTreeNode' => __DIR__ . '/../..' . '/www/libs/commenttree.php',
+        'Cuelgacoin' => __DIR__ . '/../..' . '/www/libs/cuelgacoin.php',
         'DbHelper' => __DIR__ . '/../..' . '/www/libs/db_helper.php',
         'Facebook' => __DIR__ . '/../..' . '/www/libs/facebook/facebook.php',
         'FacebookApiException' => __DIR__ . '/../..' . '/www/libs/facebook/base_facebook.php',
