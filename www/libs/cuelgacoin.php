@@ -52,4 +52,13 @@ class Cuelgacoin
     {
         return json_decode($this->request('getAccountAddress', array("account" => $account)));
     }
+
+    public function listAddressGroupings()
+    {
+        return json_decode($this->request('listAddressGroupings'));
+    }
+
+    public function getBalance($account = "") {
+        return json_decode($this->request('getBalance', array("account" => $account)));
+    }
 }
