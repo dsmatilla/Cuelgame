@@ -11,9 +11,10 @@ if($db_wallet->address == "") {
         $res = $cc->getAccountAddress($globals['cc_prefix'] . $current_user->user_id);
         unset($cc);
         $wallet = $res->result;
-        $db->query(
-            "INSERT INTO wallets (user_id, address) VALUES ('" . $current_user->user_id . "','" . $wallet . "')"
-        );
+        if($wallet)
+            $db->query(
+                "INSERT INTO wallets (user_id, address) VALUES ('" . $current_user->user_id . "','" . $wallet . "')"
+            );
     } else {
         $wallet = "N/A";
     }
