@@ -31,7 +31,7 @@ function print_time($secs)
     }
 }
 
-do_header(_('Información sobre valores de karma y límites') . ' | ' . _('menéame'));
+do_header(_('Información sobre valores de karma y límites') . ' | ' . _('cuélgame'));
 echo '<div id="singlewrap">'."\n";
 
 echo '

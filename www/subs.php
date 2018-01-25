@@ -35,7 +35,7 @@ if ($q) {
 
 $char_selected = $chars = false; // User for index by first letter
 
-do_header(_("subs menéame"), 'm/');
+do_header(_("subs cuélgame"), 'm/');
 
 echo '<div id="sidebar" class="sidebar-with-section">';
     do_banner_right();

@@ -11,7 +11,7 @@ require_once mnminclude.'html1.php';
 
 $globals['ads'] = false;
 promote_style();
-do_header(_('promote') . ' | ' . _('menéame'));
+do_header(_('promote') . ' | ' . _('cuélgame'));
 echo '<div id="singlewrap">'."\n";
 
 $site_id = SitesMgr::my_id();

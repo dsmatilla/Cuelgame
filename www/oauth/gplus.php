@@ -42,7 +42,7 @@ class GPlusOAuth extends OAuthBase
         $this->client->setClientSecret($globals['oauth']['gplus']['consumer_secret']);
         $this->client->setRedirectUri($callback);
         // $this->client->setApprovalPrompt('auto'); // TODO: pass to auto, check token is ok
-        $this->client->setApplicationName("Menéame Login");
+        $this->client->setApplicationName("Cuélgame Login");
         $this->gplus = new apiPlusService($this->client);
         parent::__construct();
     }

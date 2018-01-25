@@ -61,7 +61,7 @@ switch ($format) {
         $div2 = '<div style="padding: 1px 1px 1px 1px; height: 23%; width: 100%; border-top: 1px solid #'.$color_border.';">';
         $div3 = '<div style="padding: 1px 1px 1px 1px; height: 23%; width: 100%; border-top: 1px solid #'.$color_border.';">';
         $div4 = '<div style="padding: 1px 1px 1px 1px; height: 23%; width: 100%; border-top: 1px solid #'.$color_border.';">';
-        $signature = _('Menéame');
+        $signature = _('Cuélgame');
         break;
     case 'horizontal':
     default:
@@ -69,7 +69,7 @@ switch ($format) {
         $div2 = '<div style="position: absolute; left: 25%; top: 2px; width: 24%;">';
         $div3 = '<div style="position: absolute; left: 50%; top: 2px; width: 24%;">';
         $div4 = '<div style="position: absolute; left: 75%; top: 2px; width: 24%;">';
-        $signature = _('Menéame');
+        $signature = _('Cuélgame');
 }
 
 ?>

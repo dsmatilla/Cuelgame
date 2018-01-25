@@ -360,7 +360,7 @@ class User
         $items[] = new MenuOption(_('perfil'), $user->get_uri('profile'), $id, _('Información de usuario'));
         $items[] = new MenuOption(_('cartera'), $user->get_uri('currency'), $id, _('Reparto del botín'));
         $items[] = new MenuOption(_('historias'), $user->get_uri('history'), $id, _('Información de envíos'));
-        $items[] = new MenuOption(_('subs'), $user->get_uri('subs'), $id, _('Sub menéames'));
+        $items[] = new MenuOption(_('subs'), $user->get_uri('subs'), $id, _('Sub cuélgame'));
         $items[] = new MenuOption(_('comentarios'), $user->get_uri('commented'), $id, _('Información de comentarios'));
         $items[] = new MenuOption(_('notas'), $user->get_uri('notes'), $id, _('Página de notas'));
         $items[] = new MenuOption(_('relaciones'), $user->get_uri('friends'), $id, _('Amigos e ignorados'));

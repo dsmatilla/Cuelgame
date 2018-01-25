@@ -1,4 +1,4 @@
-Menéame
+Cuélgame
 =======
 
-Source code for the social aggregator https://www.meneame.net (central repository) 
+Source code for the social aggregator https://cuelgame.net (central repository) 

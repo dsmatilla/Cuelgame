@@ -13,7 +13,7 @@ require_once mnminclude.'geo.php';
 geo_init('onLoad', false, 2);
 array_push($globals['extra_js'], 'markermanager.js');
 
-do_header(_('mapa de las últimas noticias') . ' | ' . _('menéame'));
+do_header(_('mapa de las últimas noticias') . ' | ' . _('cuélgame'));
 do_tabs('main', 'map');
 
 /*** SIDEBAR ****/

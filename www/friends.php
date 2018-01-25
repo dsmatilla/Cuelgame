@@ -27,7 +27,7 @@ if ($friends) {
     $links = $db->get_results("$sql LIMIT $offset,$page_size");
 }
 
-do_header(_('votadas por amigos') . ' | ' . _('menéame'));
+do_header(_('votadas por amigos') . ' | ' . _('cuélgame'));
 $globals['tag_status'] = 'published';
 do_tabs('main', 'friends');
 

@@ -17,7 +17,7 @@ $page = get_current_page();
 $offset=($page-1)*$page_size;
 
 $globals['extra_head'] .= '<link rel="alternate" type="application/rss+xml" title="'._('blogs de Menéame').'" href="http://'.get_server_name().$globals['base_url_general'].'blogs_rss2.php" />'."\n";
-do_header(_('apuntes de blogs') . ' | ' . _('menéame'));
+do_header(_('apuntes de blogs') . ' | ' . _('cuélgame'));
 do_tabs('main', _('apuntes'), true);
 
 /*** SIDEBAR

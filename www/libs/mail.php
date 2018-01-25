@@ -77,7 +77,7 @@ function send_recover_mail($user, $echo = true)
     $message .= _('Pasado este tiempo puedes volver a solicitar acceso en: ') . "\nhttp://".get_server_name().$globals['base_url']."login?op=recover\n\n";
     $message .= _('Una vez en tu perfil, puedes cambiar la clave de acceso.') . "\n" . "\n";
     $message .= "\n\n". _('Este mensaje ha sido enviado a solicitud de la dirección: ') . $globals['user_ip'] . "\n\n";
-    $message .= "-- \n  " . _('el equipo de menéame');
+    $message .= "-- \n  " . _('el equipo de cuélgame');
     $message = wordwrap($message, 70);
 
     $headers = 'Content-Type: text/plain; charset="utf-8"'."\n" .

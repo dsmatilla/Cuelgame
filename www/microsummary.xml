@@ -8,7 +8,7 @@
       <output method="text"/>
 	
       <template match="/">
-            <text>Menéame: </text>
+            <text>Cuelgame: </text>
 			<value-of select="/html/body[@id='home']/div[@id='container']/div[@id='contents']/div[2]/div/h1/a"/>
 	  </template>
 	  
