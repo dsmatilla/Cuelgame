@@ -1513,9 +1513,9 @@ img.emoji {
 }
 
 .avatar, .news-submitted img {
-    -moz-border-radius: 50%;
-    -webkit-border-radius: 50%;
-    border-radius: 50%;
+    -moz-border-radius: 0%;
+    -webkit-border-radius: 0%;
+    border-radius: 0%;
 }
 
 .avatar.big {
@@ -1747,9 +1747,9 @@ div.tab-promoted-article {
     padding: 1px 4px;
     font-weight: bold;
     text-align: center;
-    -moz-border-radius: 50%;
-    -webkit-border-radius: 50%;
-    border-radius: 50%;
+    -moz-border-radius: 0%;
+    -webkit-border-radius: 0%;
+    border-radius: 0%;
     color: white;
 }
 
@@ -2598,7 +2598,7 @@ li .comment-header .comment-expand {
     min-height: 12px;
     min-width: 12px;
     background-color: #FFB600;
-    border-radius: 50%;
+    border-radius: 0%;
 }
 
 .comment-footer .votes-counter {
@@ -3655,7 +3655,7 @@ input.uploadFile {
     background:url({{ globals.base_static }}img/common/uparr-48-w.png) no-repeat center center rgba(0, 0, 0, 0.8);
     background-size: 24px 24px;
     border: none;
-    border-radius: 50%;
+    border-radius: 0%;
 }
 
 .reportform {

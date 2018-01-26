@@ -1001,9 +1001,9 @@ box-shadow: 0 0 3px rgba(0,0,0,0.4);
 
 .avatar, .news-submitted img {
 border: 1px solid #ccc;
--moz-border-radius: 50%;
--webkit-border-radius: 50%;
-border-radius: 50%;
+-moz-border-radius: 0%;
+-webkit-border-radius: 0%;
+border-radius: 0%;
 }
 
 .avatar.big {
@@ -1171,9 +1171,9 @@ text-decoration: none;
 padding: 1px 4px;
 font-weight: bold;
 text-align: center;
--moz-border-radius: 50%;
--webkit-border-radius: 50%;
-border-radius: 50%;
+-moz-border-radius: 0%;
+-webkit-border-radius: 0%;
+border-radius: 0%;
 color: white;
 }
 
@@ -1816,9 +1816,9 @@ text-align: center;
 min-height: 12px;
 min-width: 12px;
 background-color: #FFB600;
--moz-border-radius: 50%;
--webkit-border-radius: 50%;
-border-radius: 50%;
+-moz-border-radius: 0%;
+-webkit-border-radius: 0%;
+border-radius: 0%;
 }
 
 .comment-footer .votes-counter {
