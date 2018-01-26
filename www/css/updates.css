@@ -824,7 +824,7 @@ a.action-link span {
 }
 
 .widget-official-subs-slider div.title {
-    color: #FE6117;
+    color: #2A5008;
     font-family: "Open Sans";
     font-weight: 300;
     font-size: 38px;
@@ -832,7 +832,7 @@ a.action-link span {
 }
 
 .widget-official-subs-slider div.subtitle {
-    color: #FE6117;
+    color: #2A5008;
     font-family: "Open Sans";
     font-weight: 300;
     font-size: 13px;
@@ -853,7 +853,7 @@ a.action-link span {
     font-weight: bold;
     font-size: 12px;
     display: inline-block;
-    background-color: #FE6117 !important;
+    background-color: #2A5008 !important;
     background-image: linear-gradient(-180deg, rgba(199, 199, 199, 0.20) 0%, rgba(68, 68, 68, 0.20) 100%);
     border: 1px solid rgba(122, 47, 11, 0.45);
     box-shadow: 0px 0px 0px 0px #FFFFFF;
@@ -943,7 +943,7 @@ a.action-link span {
 .widget-popular-links-slider a.source {
     font-family: 'Lato', sans-serif;
     font-size: 11px;
-    color: #FE6117;
+    color: #2A5008;
     margin-bottom: 5px;
 }
 
@@ -991,7 +991,7 @@ a.action-link span {
 }
 
 .popular-link-widget-right div.title {
-    color: #FE6117;
+    color: #2A5008;
     font-family: "Open Sans";
     font-weight: 700;
     font-size: 38px;
@@ -1001,7 +1001,7 @@ a.action-link span {
 }
 
 .popular-link-widget-right div.subtitle {
-    color: #FE6117;
+    color: #2A5008;
     font-family: "Open Sans";
     font-weight: 700;
     font-size: 13px;
@@ -1022,7 +1022,7 @@ a.action-link span {
     font-weight: bold;
     font-size: 12px;
     display: inline-block;
-    background-color: #FE6117 !important;
+    background-color: #2A5008 !important;
     background-image: linear-gradient(-180deg, rgba(199, 199, 199, 0.20) 0%, rgba(68, 68, 68, 0.20) 100%);
     border: 1px solid rgba(122, 47, 11, 0.45);
     box-shadow: 0px 0px 0px 0px #FFFFFF;
@@ -1308,7 +1308,7 @@ ul.slick-dots li button {
 
 .poll-vote .poll-option.winner .progress-bar, .poll-vote .poll-option.winner .percent {
     color: black;
-    background-color: #fe6117;
+    background-color: #2A5008;
     font-weight: bold;
 }
 
@@ -1319,7 +1319,7 @@ ul.slick-dots li button {
 .poll-vote .poll-option .percent {
     font-weight: bold;
     width: 36px;
-    color: #fe6117;
+    color: #2A5008;
     text-align: right;
     margin-right: 3px;
     border-radius: 4px;
@@ -1339,7 +1339,7 @@ ul.slick-dots li button {
     margin: 0;
     font-weight: bold;
     text-transform: uppercase;
-    color: #fe6117;
+    color: #2A5008;
 }
 
 .poll-vote footer span.separator {
@@ -1997,7 +1997,7 @@ ul.slick-dots li button {
 }
 
 .label-mnm, .badge-mnm {
-    background-color: #FE6117;
+    background-color: #2A5008;
 }
 
 dl.list dt {
