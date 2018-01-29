@@ -33,6 +33,6 @@ postJavascript.push("{{ globals.base_static }}js/{{ js }}");
 {% endif %}
 
 {# Include Google Adsense Async javascript #}
-{% if globals.mobile AND globals.ads %}
+
 {% try_include 'private/ad-google-async.html' %}
-{% endif %}
+

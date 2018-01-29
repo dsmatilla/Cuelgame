@@ -2092,7 +2092,7 @@ div.tab-promoted-article {
 
 .news-shakeit.mnm-queued .votes, .news-shakeit.mnm-queued .clics {
     border-color: #C4DF9B;
-    background-color: #C4DF9B;
+    background-color: white;
 }
 
 .news-shakeit.mnm-discarded {
