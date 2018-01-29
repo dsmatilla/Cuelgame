@@ -475,6 +475,8 @@ $globals['cc_host'] = "";
 $globals['cc_user'] = "";
 $globals['cc_pass'] = "";
 $globals['cc_prefix'] = "";
+$globals['cc_base_address'] = "";
+$globals['cc_reward'] = "";
 
 // Send logs to "log_user", it's windows compatible
 openlog('meneame', LOG_ODELAY, LOG_USER);

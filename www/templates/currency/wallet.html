@@ -1,11 +1,46 @@
+{% if error %}
+<div class="alert alert-danger">{{ error }}</div>
+{% endif %}
+{% if success %}
+<div class="alert alert-success">{{ success }}</div>
+{% endif %}
 <table class="table table-condensed">
     <tr>
         <th>{% trans _('Dirección') %}</th>
         <td>{{ wallet }}</td>
     </tr>
 
+    {% if current_user.user_id == user.id %}
     <tr>
         <th>{% trans _('Saldo') %}</th>
         <td>{{ balance }} CLG</td>
     </tr>
+    <tr>
+        <th>{% trans _('Pagar') %}</th>
+        <td>
+            <form method="post">
+                <input type="text" value="{{ to_amount }}" size="14" maxlength="14" name="to_amount"/>
+                <b> CLG</b> a
+                <input type="text" value="{{ to_address }}" size="40" maxlength="40" name="to_address"/>
+                <input type="submit" name="boton" value="Enviar" />
+            </form>
+        </td>
+    </tr>
+        {% if confirm %}
+        <tr>
+            <th>Atención</th>
+            <td>
+                <form method="post">
+                    Estás a punto de enviar {{ to_amount }} <b>CLG</b> a <b>{{ to_address }} </b>
+                    <input type="hidden" value="{{ to_amount }}" name="to_amount" />
+                    <input type="hidden" value="{{ to_address }}" name="to_address"/>
+                    <input type="hidden" value="{{ ts }}" name="ts"/>
+                    <input type="submit" name="boton" value="Confirmar" />
+                    <br/>
+                    La comisión de transferencia se descontará también de tu cartera.
+                </form>
+            </td>
+        </tr>
+        {% endif %}
+    {% endif %}
 </table>

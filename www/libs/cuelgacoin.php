@@ -58,7 +58,18 @@ class Cuelgacoin
         return json_decode($this->request('listAddressGroupings'));
     }
 
-    public function getBalance($account = "") {
+    public function getBalance($account = "")
+    {
         return json_decode($this->request('getBalance', array("account" => $account)));
+    }
+
+    public function sendFrom($fromaccount, $toaddress, $amount)
+    {
+        return json_decode($this->request('sendFrom', array("fromaccount" => $fromaccount, "toaddress" => $toaddress, "amount" => $amount)));
+    }
+
+    public function validateAddress($address)
+    {
+        return json_decode($this->request('validateAddress', array("address" => $address)));
     }
 }
