@@ -47,7 +47,6 @@ if($_POST['boton'] == "Enviar" OR $_POST['boton'] == "Confirmar") {
         $res = $cc->validateAddress($_POST['to_address']);
         if(!$res->result->isvalid) {
             $error = "La dirección introducida no es una cartera CLG válida. Revisa los datos.";
-            $error = print_r($res);
         } else {
             if($_POST['boton'] == "Enviar") {
                 $confirm = true;
